@@ -1,5 +1,5 @@
 # Analyzers Elasticsearch
-Indexing data using Elasticsearch and Analyzers as WordNet to apply synonyms.
+Indexing data using ElasticSearch and Analyzers as WordNet to apply synonyms.
 
 ## Structure:
 
