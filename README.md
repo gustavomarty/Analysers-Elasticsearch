@@ -30,10 +30,17 @@ Indexing data using ElasticSearch and Analyzers as WordNet to apply synonyms.
         
         We need to see three items returned in this request: car, motorcar and automobile.
     
-
-
-TODO: extract content from files
-
+## Testing index analyzer
+    - Execute a [POST] request to this address: http://localhost:9200/sample-index/_analyze
+        {
+            "tokenizer": "whitespace",
+            "filter": [
+                "synonym"
+            ],
+            "text": "car"
+        }
+        
+        We can see the behavior of the synonym on the word 'car'.
 
 ## References
 
