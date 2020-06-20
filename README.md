@@ -1,2 +1,2 @@
-# Analysers-Elasticsearch
-Testing Analysers Elasticsearch
+# Analyzers-Elasticsearch
+Testing Analyzers Elasticsearch
